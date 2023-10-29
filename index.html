@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Your Custom Title</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="main-form" name="mainform">
+            <form id="user-form" name="userform">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="firstname" required /><br />
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="lastname" required /><br />
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required /><br />
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required /><br />
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required /><br />
+
+                <label for="province">Province:</label>
+                <input type="text" id="province" name="province" required /><br />
+
+                <label>Membership:</label><br />
+                <input type="radio" id="premium" name="membership" value="premium" checked />
+                <label for="premium">Premium Membership</label><br />
+                <input type="radio" id="standard" name="membership" value="standard" />
+                <label for="standard">Standard Membership</label><br />
+                <input type="radio" id="basic" name="membership" value="basic" />
+                <label for="basic">Basic Membership</label><br />
+            </form>
+        </form>
+        <div id="output">
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="submitButton">Send</button>
+        <button type="reset" id="resetButton">Cancel</button>
+        <button type="button" id="darkLight">Dark Mode</button>
+        <p>
+            ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Mikhaïl BENALI
+        </p>
+    </footer>
+    <script src="js/main.js" ></script>
+</body>
+
+</html>

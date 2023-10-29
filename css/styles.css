@@ -1,0 +1,61 @@
+a {
+    border: 1px #0080ff solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #0ff;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border: 1px #0080ff solid;
+    border-radius: 20px;
+    padding: 5%;
+    background-color: #0ff;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: larger;
+}
+#darkLight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #c0c0c0;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: larger;
+    border: 1px #0080ff solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+#radioButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+#calcButton, #submitButton, #resetButton {
+    border: 1px #0080ff solid;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px auto 0px;
+    background-color: #0ff;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+}

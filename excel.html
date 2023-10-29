@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Custom Title</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="excel.html">Excel</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Excel functions</h1>
+    <form id="main-form" name="mainform">
+      <label for="input">Enter your numbers separated by spaces: </label>
+      <input type="text" id="input" name="input"><br>
+
+
+      <div id="radioButtons">
+        <input type="radio" name="function" id="autoSum" value="sum" checked>
+        <label for="autoSum">Sum</label><br>
+        <input type="radio" name="function" id="average" value="average">
+        <label for="average">Average</label><br>
+        <input type="radio" name="function" id="min" value="min">
+        <label for="min">Min</label><br>
+        <input type="radio" name="function" id="max" value="max">
+        <label for="max">Max</label><br>
+      </div>
+    </form>
+    <button type="button" id="calcButton">Calculate</button>
+    <div id="output">
+      <p id="result"></p>
+    </div>
+    <button type="button" id="darkLight">Dark Mode</button>
+  </main>
+  <footer>
+    <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Mikhaïl BENALI</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
