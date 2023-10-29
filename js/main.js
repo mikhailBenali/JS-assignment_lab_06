@@ -17,6 +17,8 @@ function lightDarkFunc() {
     }
 }
 
+//###########################################################################
+
 if (document.getElementById("submitButton") != null) {
     document.getElementById("submitButton").addEventListener("click", userForm);
 
