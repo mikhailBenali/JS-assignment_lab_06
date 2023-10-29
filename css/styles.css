@@ -59,3 +59,13 @@ ul {
     font-size: large;
     width: 100%;
 }
+#output {
+    border: #0080ff solid 1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #0ff;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #f00;
+}
